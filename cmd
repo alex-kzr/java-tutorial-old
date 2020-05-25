@@ -14,5 +14,7 @@ Ctrl + Shift + A // toogle block selection
 Alt + Shift + Y // toogle word wrap
 Ctrl + M // Maximize active editor or view
 Alt + Shif + S // Source
+Ctrl + LMC // go to declaration
+Alt + <-\-> // goto history code view
 sout // System.out.println(); snippet
 
