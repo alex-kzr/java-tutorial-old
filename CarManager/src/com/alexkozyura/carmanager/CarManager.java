@@ -4,11 +4,11 @@ public class CarManager {
 
 	public static void main(String[] args) {
 
-		Car prius = new Car("Toyota", 2008, 15000, 1200, "grey");
+		Car prius = new Car("Toyota", 2008, 15000, 1200, Color.GREY);
 
 		Car laguna = new Car();
 		laguna.mark = "Renault";
-		laguna.color = "white";
+		laguna.color = Color.WHITE;
 		laguna.yearOfProduction = 2000;
 		laguna.weigth = 2000;
 		laguna.price = 9700;

@@ -12,5 +12,6 @@ Ctrl + Shift + F // Refactor
 Ctrl + F11 // build + run app
 Ctrl + Shift + A // toogle block selection
 Alt + Shift + Y // toogle word wrap
+Ctrl + M // Maximize active editor or view
 sout // System.out.println(); snippet
 
