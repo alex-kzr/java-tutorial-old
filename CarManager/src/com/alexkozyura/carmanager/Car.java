@@ -24,4 +24,43 @@ public class Car {
 		return "Car [mark=" + mark + ", yearOfProduction=" + yearOfProduction + ", price=" + price + ", weigth="
 				+ weigth + ", color=" + color + "]";
 	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((color == null) ? 0 : color.hashCode());
+		result = prime * result + ((mark == null) ? 0 : mark.hashCode());
+		result = prime * result + price;
+		result = prime * result + weigth;
+		result = prime * result + yearOfProduction;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Car other = (Car) obj;
+		if (color != other.color)
+			return false;
+		if (mark == null) {
+			if (other.mark != null)
+				return false;
+		} else if (!mark.equals(other.mark))
+			return false;
+		if (price != other.price)
+			return false;
+		if (weigth != other.weigth)
+			return false;
+		if (yearOfProduction != other.yearOfProduction)
+			return false;
+		return true;
+	}
+	
+	
 }
