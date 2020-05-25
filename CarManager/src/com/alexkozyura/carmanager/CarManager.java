@@ -4,17 +4,14 @@ public class CarManager {
 
 	public static void main(String[] args) {
 
-		Car prius = new Car("Toyota", 2008, 15000, 1200, Color.GREY);
+		PassengerCar prius = new PassengerCar("Toyota", 2008, 15000, 1200, Color.GREY);
 
 		prius.addDistance(1000);
+		prius.addDistance(1533.9);
 
-		Car laguna = new Car();
-		laguna.mark = "Renault";
-		laguna.color = Color.WHITE;
-		laguna.yearOfProduction = 2000;
-		laguna.weigth = 2000;
-		laguna.price = 9700;
-
+		Bus laguna = new Bus("Renault", 2000, 9700, 2000, Color.WHITE);
+		
+		
 		System.out.println(prius);
 		System.out.println(laguna);
 
