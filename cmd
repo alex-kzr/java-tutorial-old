@@ -6,4 +6,11 @@ C:/java/eclipse   // folder to install eclipse, while install choose "Eclipse ID
 Ctrl + Backspace // uncomment
 Ctrl + / // comment
 Ctrl + space // content assist
+Ctrl + Alt // dublicate string down
+Alt + Shift + T // Refactor
+Ctrl + Shift + F // Refactor
+Ctrl + F11 // build + run app
+Ctrl + Shift + A // toogle block selection
+Alt + Shift + Y // toogle word wrap
 sout // System.out.println(); snippet
+
