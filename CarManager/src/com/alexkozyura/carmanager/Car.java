@@ -1,6 +1,6 @@
 package com.alexkozyura.carmanager;
 
-public abstract class Car {
+public abstract class Car implements Serviceable {
 
 	String mark;
 	int yearOfProduction;
