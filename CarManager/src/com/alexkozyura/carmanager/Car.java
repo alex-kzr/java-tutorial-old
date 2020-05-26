@@ -1,6 +1,6 @@
 package com.alexkozyura.carmanager;
 
-public class Car {
+public abstract class Car {
 
 	String mark;
 	int yearOfProduction;
@@ -39,13 +39,7 @@ public class Car {
 		return distanceOnService;
 	}
 
-	public boolean isReadyToService() {
-		if (distanceOnService > 10000) {
-			return true;
-		} else {
-			return false;
-		}
-	}
+	public abstract boolean isReadyToService();
 
 	@Override
 	public String toString() {

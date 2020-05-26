@@ -15,7 +15,7 @@ public class CarManager {
 		System.out.println(prius);
 		System.out.println(laguna);
 
-		Car prius2 = new Car("Toyota", 2008, 15000, 1200, Color.GREY);
+		PassengerCar prius2 = new PassengerCar("Toyota", 2008, 15000, 1200, Color.GREY);
 
 		System.out.println(prius.equals(prius2));
 		System.out.println(prius.equals(laguna));
